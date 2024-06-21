@@ -1,0 +1,20 @@
+Http Status Code 
+-----------------
+
+1. 200 - Success
+2. 201 - Success and Created
+3. 400 - Bad Request
+4. 401 - Unauthorized
+5. 403 - Forbidden
+6. 404 - Found
+7. 500 - Internal Server Erro
+
+
+Response Groups
+----------------
+
+1. Informational Response (100 - 199)
+2. Successful Response (200 - 299)
+3. Redirection Message (300 - 399)
+4. Client Error Response (400 - 499)
+5. Server Error Response (400 - 499)

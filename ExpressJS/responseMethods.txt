@@ -1,0 +1,23 @@
+Response properties...
+-------------------
+
+1. res.headersSent
+2. res.app
+3. res.locals
+
+Response Methods...
+--------------------
+
+1. res.cookie()
+2. res.clearCookie()
+3. res.send()
+4. res.json()
+5. res.end()
+6. res.format()
+7. res.render()
+8. res.status()
+9. res.sendStatus()
+10. res.location()
+11. res.redirect()
+12. res.set()
+13. res.get()

@@ -1,0 +1,22 @@
+MiddleWare Function :
+-----------------------
+
+
+it works like the flow below :
+
+--> it is Cyclic process-
+
+1. Client HTTP req ---> Express APP ---> MiddleWare1 ---> next() ----> MiddleWare2 ---> next() ----> MiddleWare3 ---> Client HTTP
+
+==>sometimes MiddleWare1 communicated directly to the Client and rest of the MiddleWares will not be used..
+
+==> if there is any error triggered then it will send the response to the client using Response Codes like 403, 404
+
+
+Types of MiddleWare :
+---------------------
+1. App level MiddleWare
+2. Route level MiddleWare
+3. Error handling MiddleWare
+4. Built-in MiddleWare
+5. Third-party MiddleWare

@@ -1,0 +1,23 @@
+Request Object properties
+-------------------
+
+1. req.baseUrl
+2. req.originalUrl
+3. req.path
+4. req.hostname
+5. req.ip
+6. req.method
+7. req.protocol
+8. req.body
+9. req.cookies
+10. req.query
+11. req.params
+12. req.secure
+
+Request Methods
+---------------
+
+1. req.acccepts()
+2. req.get()
+
+
